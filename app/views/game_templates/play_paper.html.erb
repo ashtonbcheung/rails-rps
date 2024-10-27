@@ -1,0 +1,26 @@
+<body>
+  <div class="navbar">
+    <div><a href="/rock">Play Rock</a></div>
+    <div><a href="/paper">Play Paper</a></div>
+    <div><a href="/scissors">Play Scissors</a></div>
+  </div>
+
+  <%= yield %>
+
+</body>
+
+<h2>
+    We played paper!
+  </h2>
+
+<h2>
+  They played <%= @computer_choice %>!
+</h2>
+
+<h2>
+  <%= @outcome %>
+</h2>
+
+<p> 
+  <a href=https://bug-free-palm-tree-rwv57vr7j5439wq-3000.app.github.dev>Rules</a>
+<p>
